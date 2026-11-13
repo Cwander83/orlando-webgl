@@ -1,0 +1,32 @@
+# LTM rule: keep local scratch plans ignored
+plan/
+
+# Dependencies
+node_modules/
+
+# Next.js / Build outputs
+.next/
+out/
+build/
+dist/
+
+# Vercel
+.vercel/
+
+# Testing & Perf artifacts
+coverage/
+playwright-report/
+test-results/
+.lighthouseci/
+
+# Blender backup files (source .blend files in assets-src/ are tracked or LFS if desired; backups ignored)
+*.blend1
+*.blend2
+
+# Environment & OS
+.env
+.env*.local
+.DS_Store
+*.pem
+*.tsbuildinfo
+next-env.d.ts
