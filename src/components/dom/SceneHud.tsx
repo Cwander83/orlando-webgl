@@ -215,7 +215,7 @@ export function SceneHud() {
               <button
                 key={ch.id}
                 type="button"
-                aria-label={`Chapter ${index + 1}: ${ch.title}`}
+                aria-label={`0${index + 1}: ${ch.title}`}
                 aria-pressed={isActive}
                 onClick={() => scrollToChapter(ch.id as ChapterId, reducedMotion)}
                 className={`rounded-full px-3 py-1.5 font-display text-xs font-bold uppercase tracking-[0.14em] transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#fbfaf6] ${

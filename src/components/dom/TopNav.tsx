@@ -49,7 +49,7 @@ export function TopNav() {
                 <a
                   key={item.id}
                   href={`#chapter-${item.id}`}
-                  aria-label={fullTitle}
+                  aria-label={`${item.shortLabel}: ${fullTitle}`}
                   aria-current={isActive ? 'location' : undefined}
                   onClick={(event) => {
                     event.preventDefault();

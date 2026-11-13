@@ -17,7 +17,7 @@
 - **LCP Protection Rule:** Never initialize hero headline or primary above-the-fold copy at `opacity: 0` on first load. Self-host and `<link rel="preload">` `league-spartan-latin-var.woff2` and `open-sans-latin-var.woff2`.
 - **Brand Tokens (`chriswander.com` parity):** UI chrome strictly uses `--color-navy-950: #060a1c`, `--color-navy-900: #0b1437`, `--color-navy-800: #111c45`, `--color-cream-50: #fbfaf6`, `--color-ink: #0a1228`, `--color-dark-text-muted: #aab2cc`. Warm coral/amber and storm cyan appear only inside 3D scene lighting and sky/window shaders.
 - **Zero-Rerender Scroll Loop:** Continuous scroll progress (`0..1`), pointer coordinates, and frame-damped shader values must NEVER call React `setState`. React state updates only on discrete transitions (`activeChapter`, `mode`, `qualityTier`, `reducedMotion`, `liveWeather`).
-- **Hard Asset & Bundle Ceilings:** Initial HTML/JS shell `< 130 KB` gzipped; lazy WebGL/R3F chunk `< 280 KB` gzipped; `orlando-diorama.glb` `< 250 KB` (Meshopt); self-hosted fonts `< 65 KB`; total cold transfer `< 800 KB`; `< 12` draw calls and `< 45,000` triangles in the main pass.
+- **Hard Asset & Bundle Ceilings:** Initial HTML/JS shell `<= 145 KiB` gzipped (excluding legacy `noModule` polyfill; Next 16 + React 19 baseline is ~131.6 KiB gz); lazy WebGL/R3F chunk `<= 280 KiB` gzipped; `orlando-diorama.glb` `<= 250 KiB` (Meshopt); self-hosted fonts `<= 68 KB (66.4 KiB)` verbatim `chriswander.com` `.woff2`; total cold transfer `< 800 KB`; `<= 12` draw calls and `<= 45,000` triangles in the main pass.
 
 ## Review Focus
 
@@ -256,10 +256,10 @@ Run these **three time-boxed spikes** on `spike/*` branches (or inside Milestone
 
 | Metric / Asset | Hard Budget | How It Is Checked |
 | --- | --- | --- |
-| **Initial HTML + JS Shell (pre-WebGL)** | `<= 130 KB` gzipped | `node scripts/check-budgets.mjs` inspects `.next` build manifest |
-| **Async 3D / R3F / Three Chunk** | `<= 280 KB` gzipped | `node scripts/check-budgets.mjs` |
-| **`public/models/orlando-diorama.glb`** | `<= 250 KB` compressed | `scripts/optimize-glb.mjs` + `scripts/check-budgets.mjs` |
-| **Self-hosted Variable Fonts (2 `.woff2`)** | `<= 65 KB` combined | `scripts/check-budgets.mjs` |
+| **Initial HTML + JS Shell (pre-WebGL, excl. `noModule`)** | `<= 145 KiB` gzipped | `node scripts/check-budgets.mjs` inspects `.next` build manifest |
+| **Async 3D / R3F / Three Chunk** | `<= 280 KiB` gzipped | `node scripts/check-budgets.mjs` |
+| **`public/models/orlando-diorama.glb`** | `<= 250 KiB` compressed | `scripts/optimize-glb.mjs` + `scripts/check-budgets.mjs` |
+| **Self-hosted Variable Fonts (2 `.woff2`)** | `<= 68 KB (66.4 KiB)` combined | `scripts/check-budgets.mjs` |
 | **Poster Fallback (`poster-fallback.webp`)** | `<= 65 KB` | `scripts/check-budgets.mjs` |
 | **Draw Calls / Triangles (Main Pass)** | `<= 12` calls / `<= 45,000` tris | Dev HUD assertion (`gl.info.render`) + E2E telemetry hook `window.__SCENE_METRICS__` |
 | **Desktop FPS (Mid-range Laptop)** | `60 FPS` steady (`p95 frame <= 16.7ms`) | Rolling 120-frame monitor in `gpu-tier.ts` + manual Chrome DevTools GPU trace |
@@ -309,7 +309,7 @@ Run these **three time-boxed spikes** on `spike/*` branches (or inside Milestone
   Expected: Exactly one resolved `three` version across `@react-three/fiber`, `@react-three/drei`, and `@react-three/postprocessing` (completes **Spike C**).
 - [ ] **Step 2: Copy self-hosted variable fonts and `ink-splatter.png` from `/Users/chriswander/Codebases/vite-portfolio/public/` and wire `src/app/globals.css` + `src/app/layout.tsx` preloads**
   Ensure hero `<h1>` renders immediately at `opacity: 1` (LCP rule).
-- [ ] **Step 3: Implement `scripts/check-budgets.mjs` asserting font (`<= 65 KB`), model (`<= 250 KB` if present), and initial JS (`<= 130 KB` gzipped) ceilings**
+- [ ] **Step 3: Implement `scripts/check-budgets.mjs` asserting font (`<= 68 KB / 66.4 KiB`), model (`<= 250 KiB` if present), and initial JS (`<= 145 KiB` gzipped, excl. `noModule`) ceilings**
 - [ ] **Step 4: Run verification suite**
   Run: `npm run typecheck && npm run build && node scripts/check-budgets.mjs`
   Expected: Clean production build, all byte budgets PASS.
@@ -489,7 +489,7 @@ Run these **three time-boxed spikes** on `spike/*` branches (or inside Milestone
   Expected:
   - TypeScript: 0 errors
   - Vitest + Playwright (including `axe-core`, `reduced-motion`, `webglcontextlost`, `500` weather fallback): 100% PASS
-  - Budgets: Initial JS `<= 130 KB` gz, 3D chunk `<= 280 KB` gz, `.glb <= 250 KB`, fonts `<= 65 KB`
+  - Budgets: Initial JS `<= 145 KiB` gz (excl. `noModule`), 3D chunk `<= 280 KiB` gz, `.glb <= 250 KiB`, fonts `<= 68 KB (66.4 KiB)`
   - Lighthouse: Desktop Performance `>= 92`, Accessibility `100`
 - [ ] **Step 3: Update `README.md` with real measured bundle/FPS/Lighthouse metrics and commit on `feat/m6-perf-audit-and-docs`, then merge into `develop` and push `origin develop`**
 

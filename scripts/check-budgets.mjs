@@ -9,11 +9,13 @@ const REQUIRE_BUILD = args.has('--require-build') || REQUIRE_ASSETS;
 
 const BUDGETS = {
   // Exact copied chriswander.com Latin variable fonts total 66,848 B (65.28 KiB).
-  // Ceiling set to 68,000 B (<= 68 KB decimal / 66.4 KiB) per coordinator ruling.
+  // Ceiling set to 68,000 B (<= 68 KB decimal / 66.41 KiB) per coordinator ruling.
   fontsCombinedBytes: 68_000,
   modelGlbBytes: 250 * 1024,
   posterWebpBytes: 65 * 1024,
-  initialNon3dJsGzipBytes: 130 * 1024,
+  // Calibrated to 145 KiB gz (excluding legacy noModule polyfill) per coordinator ruling #15:
+  // Next.js 16.4.6 + React 19 baseline runtime is ~131.6 KiB gz + ~7.6 KiB gz app shell.
+  initialNon3dJsGzipBytes: 145 * 1024,
   lazy3dChunksGzipBytes: 280 * 1024,
 };
 
@@ -116,7 +118,8 @@ function checkAssetFile(label, relPath, maxBytes) {
 function collectInitialChunkPaths(nextDir) {
   const chunkPaths = new Set();
 
-  // 1. Inspect prerendered HTML for exact initial <script src="/_next/static/chunks/..."> tags
+  // 1. Inspect prerendered HTML for exact initial <script src="/_next/static/chunks/..."> tags,
+  // excluding legacy <script ... noModule> polyfills never loaded by modern browsers.
   const htmlCandidates = [
     path.join(nextDir, 'server', 'app', 'index.html'),
     path.join(nextDir, 'server', 'app', 'page.html'),
@@ -124,9 +127,10 @@ function collectInitialChunkPaths(nextDir) {
   for (const htmlFile of htmlCandidates) {
     if (!fs.existsSync(htmlFile)) continue;
     const html = fs.readFileSync(htmlFile, 'utf8');
-    const regex = /\/_next\/static\/chunks\/([^"'\\]+\.js)/g;
+    const scriptTagRegex = /<script\b[^>]*src="\/_next\/static\/chunks\/([^"]+\.js)"[^>]*>/g;
     let match;
-    while ((match = regex.exec(html)) !== null) {
+    while ((match = scriptTagRegex.exec(html)) !== null) {
+      if (/\bnoModule\b/i.test(match[0])) continue;
       const candidate = path.join(nextDir, 'static', 'chunks', match[1]);
       if (fs.existsSync(candidate)) {
         chunkPaths.add(candidate);

@@ -26,7 +26,7 @@ export function StaticDioramaFallback() {
 
   return (
     <>
-      <div
+      <section
         data-testid="static-diorama-fallback"
         aria-label="Static Lake Eola and Downtown Orlando diorama"
         className="fixed inset-0 z-0 overflow-hidden bg-[#060a1c]"
@@ -41,9 +41,12 @@ export function StaticDioramaFallback() {
           aria-hidden="true"
           className={`absolute inset-0 bg-gradient-to-b ${CHAPTER_MOOD_GRADIENT[selected.id]}`}
         />
-      </div>
+      </section>
 
-      <div className="pointer-events-auto fixed right-5 top-20 z-20 hidden max-w-sm rounded-2xl border border-[#fbfaf6]/25 bg-[#060a1c]/92 p-5 text-[#fbfaf6] shadow-2xl backdrop-blur-md lg:block">
+      <aside
+        aria-label="Fallback chapter preview"
+        className="pointer-events-auto fixed right-5 top-20 z-20 hidden max-w-sm rounded-2xl border border-[#fbfaf6]/25 bg-[#060a1c]/92 p-5 text-[#fbfaf6] shadow-2xl backdrop-blur-md lg:block"
+      >
         <p className="font-display text-[0.7rem] font-semibold uppercase tracking-[0.28em] text-[#c7d0ec]">
           Static Diorama Mode
         </p>
@@ -78,7 +81,7 @@ export function StaticDioramaFallback() {
             );
           })}
         </div>
-      </div>
+      </aside>
     </>
   );
 }

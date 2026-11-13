@@ -1,8 +1,9 @@
 'use client';
 
-import { useEffect, useMemo } from 'react';
+import { useEffect, useMemo, useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
+import { sceneMutableState } from '@/lib/scene-store';
 
 export interface StormSystemProps {
   rainCount: number;
@@ -121,18 +122,25 @@ export function StormSystem({
     };
   }, [material]);
 
+  const meshRef = useRef<THREE.Mesh>(null);
   const visible = !reducedMotion && stormIntensity > 0.05 && count > 0;
 
   useFrame((_, delta) => {
-    if (!visible) return;
+    const activeStorm = Math.max(stormIntensity, sceneMutableState.dampedStormIntensity);
+    const shouldShow = !reducedMotion && activeStorm > 0.05 && count > 0;
+    if (meshRef.current) {
+      meshRef.current.visible = shouldShow;
+    }
+    if (!shouldShow) return;
     material.uniforms.uTime.value += Math.min(delta, 0.1);
-    material.uniforms.uStormIntensity.value = stormIntensity;
+    material.uniforms.uStormIntensity.value = activeStorm;
   });
 
   if (!geometry) return null;
 
   return (
     <mesh
+      ref={meshRef}
       name="storm_rain_system"
       geometry={geometry}
       material={material}

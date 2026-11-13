@@ -1,14 +1,23 @@
 'use client';
 
+import { useEffect, useRef } from 'react';
 import { CHAPTERS } from '@/lib/chapters';
 import { setHudState, useHudStore } from '@/lib/scene-store';
-import { scrollToChapter } from '@/lib/scroll-rig';
+import { bindScrollRig, scrollToChapter } from '@/lib/scroll-rig';
 
 export function ScrollChapters() {
   const { activeChapter, reducedMotion, mode } = useHudStore();
+  const mainRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const el = mainRef.current;
+    if (!el) return;
+    return bindScrollRig({ container: el });
+  }, []);
 
   return (
     <main
+      ref={mainRef}
       id="story-chapters"
       className="pointer-events-none relative z-10 mx-auto max-w-7xl px-5 sm:px-8 lg:px-12"
     >
