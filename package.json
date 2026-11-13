@@ -1,0 +1,51 @@
+{
+  "name": "orlando-webgl",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "check:budgets": "node scripts/check-budgets.mjs",
+    "assets:optimize": "node scripts/optimize-glb.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10",
+    "@react-three/fiber": "^9",
+    "@types/three": "latest",
+    "gsap": "latest",
+    "leva": "latest",
+    "next": "^16",
+    "react": "^19",
+    "react-dom": "^19",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "latest",
+    "@gltf-transform/core": "latest",
+    "@gltf-transform/extensions": "latest",
+    "@gltf-transform/functions": "latest",
+    "@lhci/cli": "latest",
+    "@playwright/test": "latest",
+    "@tailwindcss/postcss": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "earcut": "latest",
+    "jsdom": "latest",
+    "meshoptimizer": "latest",
+    "postcss": "latest",
+    "raw-loader": "latest",
+    "sharp": "latest",
+    "tailwindcss": "^4",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}
