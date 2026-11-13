@@ -1,0 +1,114 @@
+@import 'tailwindcss';
+
+/* Self-hosted Latin variable fonts preloaded in src/app/layout.tsx */
+@font-face {
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('/fonts/league-spartan-latin-var.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300 700;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url('/fonts/open-sans-latin-var.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122,
+    U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@theme {
+  --font-sans: 'Open Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'League Spartan', ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy-950: #060a1c;
+  --color-navy-900: #0b1437;
+  --color-navy-850: #0e1740;
+  --color-navy-800: #111c45;
+  --color-navy-700: #1b2a5e;
+  --color-navy-600: #2a3a78;
+  --color-navy-500: #3a4d92;
+  --color-navy-400: #5a6cad;
+
+  --color-cream-50: #fbfaf6;
+  --color-cream-100: #f5f2ea;
+  --color-cream-200: #e9e4d6;
+  --color-cream-300: #d8d1bd;
+
+  --color-ink: #0a1228;
+
+  --color-dark-bg: var(--color-navy-900);
+  --color-dark-text: var(--color-cream-50);
+  --color-dark-text-muted: #aab2cc;
+  --color-light-bg: var(--color-cream-50);
+  --color-light-text: var(--color-ink);
+  --color-light-text-muted: #4a5170;
+}
+
+html {
+  background-color: var(--color-navy-900);
+  color: var(--color-cream-50);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-navy-900);
+  color: var(--color-cream-50);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .display-xl {
+    font-family: var(--font-display);
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    line-height: 0.92;
+  }
+
+  .eyebrow {
+    font-family: var(--font-display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+    font-size: 0.8rem;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cream-50);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,3520 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "name": "Downtown Orlando & Lake Eola Footprints",
+    "center": {
+      "lat": 28.5439,
+      "lon": -81.3731
+    },
+    "units": "meters",
+    "axes": {
+      "x": "east (+X)",
+      "y": "south (+Z, north is -Z)"
+    },
+    "worldScale": 0.085,
+    "heightScale": 0.135,
+    "source": "curated-orlando-fallback",
+    "generatedAt": "2026-11-13T02:06:57.836Z"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "lake_eola_basin",
+        "name": "Lake Eola",
+        "role": "lake",
+        "heightMeters": 0,
+        "windowSeed": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              218.45,
+              0
+            ],
+            [
+              219.03,
+              16.27
+            ],
+            [
+              216.32,
+              32.83
+            ],
+            [
+              210.29,
+              49.26
+            ],
+            [
+              201.13,
+              65.13
+            ],
+            [
+              189.17,
+              80.05
+            ],
+            [
+              174.87,
+              93.68
+            ],
+            [
+              158.76,
+              105.79
+            ],
+            [
+              141.42,
+              116.27
+            ],
+            [
+              123.38,
+              125.08
+            ],
+            [
+              105.1,
+              132.28
+            ],
+            [
+              86.92,
+              137.98
+            ],
+            [
+              69.03,
+              142.32
+            ],
+            [
+              51.49,
+              145.44
+            ],
+            [
+              34.24,
+              147.44
+            ],
+            [
+              17.14,
+              148.41
+            ],
+            [
+              0,
+              148.35
+            ],
+            [
+              -17.35,
+              147.22
+            ],
+            [
+              -35.04,
+              144.95
+            ],
+            [
+              -53.11,
+              141.47
+            ],
+            [
+              -71.49,
+              136.68
+            ],
+            [
+              -89.99,
+              130.53
+            ],
+            [
+              -108.33,
+              123.03
+            ],
+            [
+              -126.16,
+              114.2
+            ],
+            [
+              -143.07,
+              104.17
+            ],
+            [
+              -158.66,
+              93.07
+            ],
+            [
+              -172.59,
+              81.09
+            ],
+            [
+              -184.57,
+              68.42
+            ],
+            [
+              -194.39,
+              55.25
+            ],
+            [
+              -201.97,
+              41.73
+            ],
+            [
+              -207.27,
+              27.97
+            ],
+            [
+              -210.36,
+              14.05
+            ],
+            [
+              -211.34,
+              0
+            ],
+            [
+              -210.31,
+              -14.17
+            ],
+            [
+              -207.38,
+              -28.44
+            ],
+            [
+              -202.63,
+              -42.78
+            ],
+            [
+              -196.09,
+              -57.12
+            ],
+            [
+              -187.76,
+              -71.31
+            ],
+            [
+              -177.63,
+              -85.16
+            ],
+            [
+              -165.69,
+              -98.4
+            ],
+            [
+              -151.96,
+              -110.72
+            ],
+            [
+              -136.5,
+              -121.77
+            ],
+            [
+              -119.46,
+              -131.24
+            ],
+            [
+              -101.04,
+              -138.82
+            ],
+            [
+              -81.55,
+              -144.33
+            ],
+            [
+              -61.32,
+              -147.65
+            ],
+            [
+              -40.75,
+              -148.79
+            ],
+            [
+              -20.19,
+              -147.88
+            ],
+            [
+              0,
+              -145.15
+            ],
+            [
+              19.56,
+              -140.91
+            ],
+            [
+              38.31,
+              -135.5
+            ],
+            [
+              56.18,
+              -129.27
+            ],
+            [
+              73.18,
+              -122.51
+            ],
+            [
+              89.42,
+              -115.44
+            ],
+            [
+              105.04,
+              -108.2
+            ],
+            [
+              120.16,
+              -100.79
+            ],
+            [
+              134.9,
+              -93.1
+            ],
+            [
+              149.26,
+              -84.98
+            ],
+            [
+              163.15,
+              -76.17
+            ],
+            [
+              176.37,
+              -66.46
+            ],
+            [
+              188.58,
+              -55.62
+            ],
+            [
+              199.36,
+              -43.53
+            ],
+            [
+              208.24,
+              -30.16
+            ],
+            [
+              214.75,
+              -15.58
+            ],
+            [
+              218.45,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "fountain_lake_eola",
+        "name": "Linton E. Allen Memorial Fountain",
+        "role": "fountain",
+        "heightMeters": 31,
+        "windowSeed": 0.55
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tower_200_s_orange",
+        "name": "200 S Orange (Truist Center)",
+        "role": "hero",
+        "heightMeters": 134,
+        "windowSeed": 0.18,
+        "centerMeters": [
+          -580,
+          395
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -609,
+              371
+            ],
+            [
+              -551,
+              371
+            ],
+            [
+              -551,
+              419
+            ],
+            [
+              -609,
+              419
+            ],
+            [
+              -609,
+              371
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tower_bank_of_america",
+        "name": "Bank of America Center (390 N Orange)",
+        "role": "hero",
+        "heightMeters": 123,
+        "windowSeed": 0.37,
+        "centerMeters": [
+          -600,
+          -410
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -626,
+              -432
+            ],
+            [
+              -574,
+              -432
+            ],
+            [
+              -574,
+              -388
+            ],
+            [
+              -626,
+              -388
+            ],
+            [
+              -626,
+              -432
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tower_55_west",
+        "name": "55 West on the Plaza",
+        "role": "hero",
+        "heightMeters": 115,
+        "windowSeed": 0.61,
+        "centerMeters": [
+          -700,
+          405
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -730,
+              383
+            ],
+            [
+              -670,
+              383
+            ],
+            [
+              -670,
+              427
+            ],
+            [
+              -730,
+              427
+            ],
+            [
+              -730,
+              383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tower_vue_lake_eola",
+        "name": "The Vue at Lake Eola",
+        "role": "hero",
+        "heightMeters": 130,
+        "windowSeed": 0.79,
+        "centerMeters": [
+          -235,
+          -200
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -256.36,
+              -225.94
+            ],
+            [
+              -203.96,
+              -212.87
+            ],
+            [
+              -213.64,
+              -174.06
+            ],
+            [
+              -266.04,
+              -187.13
+            ],
+            [
+              -256.36,
+              -225.94
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "tower_city_hall",
+        "name": "Orlando City Hall",
+        "role": "hero",
+        "heightMeters": 56,
+        "windowSeed": 0.91,
+        "centerMeters": [
+          -625,
+          635
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -661,
+              609
+            ],
+            [
+              -589,
+              609
+            ],
+            [
+              -589,
+              661
+            ],
+            [
+              -661,
+              661
+            ],
+            [
+              -661,
+              609
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_walt_disney_amphitheater",
+        "name": "Walt Disney Amphitheater",
+        "role": "context",
+        "heightMeters": 14,
+        "windowSeed": 0.821
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -192.71,
+              69.61
+            ],
+            [
+              -156.57,
+              57.86
+            ],
+            [
+              -147.29,
+              86.39
+            ],
+            [
+              -183.43,
+              98.14
+            ],
+            [
+              -192.71,
+              69.61
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_lake_eola_park_pavilion",
+        "name": "Lake Eola Park Pavilion",
+        "role": "context",
+        "heightMeters": 10,
+        "windowSeed": 0.455
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              102.53,
+              -176.85
+            ],
+            [
+              130.26,
+              -172.95
+            ],
+            [
+              127.47,
+              -153.15
+            ],
+            [
+              99.74,
+              -157.05
+            ],
+            [
+              102.53,
+              -176.85
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_101_eola_condominiums",
+        "name": "101 Eola Condominiums",
+        "role": "context",
+        "heightMeters": 52,
+        "windowSeed": 0.561
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -189,
+              -302
+            ],
+            [
+              -141,
+              -302
+            ],
+            [
+              -141,
+              -268
+            ],
+            [
+              -189,
+              -268
+            ],
+            [
+              -189,
+              -302
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_post_parkside_north",
+        "name": "Post Parkside North",
+        "role": "context",
+        "heightMeters": 24,
+        "windowSeed": 0.447
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -86,
+              -308
+            ],
+            [
+              -14,
+              -308
+            ],
+            [
+              -14,
+              -272
+            ],
+            [
+              -86,
+              -272
+            ],
+            [
+              -86,
+              -308
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_post_parkside_east",
+        "name": "Post Parkside East",
+        "role": "context",
+        "heightMeters": 22,
+        "windowSeed": 0.429
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52,
+              -294
+            ],
+            [
+              108,
+              -294
+            ],
+            [
+              108,
+              -256
+            ],
+            [
+              52,
+              -256
+            ],
+            [
+              52,
+              -294
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_paramount_on_lake_eola",
+        "name": "Paramount on Lake Eola",
+        "role": "context",
+        "heightMeters": 48,
+        "windowSeed": 0.541
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106,
+              188
+            ],
+            [
+              164,
+              188
+            ],
+            [
+              164,
+              232
+            ],
+            [
+              106,
+              232
+            ],
+            [
+              106,
+              188
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_waverly_on_lake_eola",
+        "name": "Waverly on Lake Eola",
+        "role": "context",
+        "heightMeters": 68,
+        "windowSeed": 0.166
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -281,
+              185
+            ],
+            [
+              -229,
+              185
+            ],
+            [
+              -229,
+              225
+            ],
+            [
+              -281,
+              225
+            ],
+            [
+              -281,
+              185
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_jackson_condominiums",
+        "name": "Jackson Condominiums",
+        "role": "context",
+        "heightMeters": 28,
+        "windowSeed": 0.637
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -185,
+              237
+            ],
+            [
+              -135,
+              237
+            ],
+            [
+              -135,
+              273
+            ],
+            [
+              -185,
+              273
+            ],
+            [
+              -185,
+              237
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_star_tower",
+        "name": "Star Tower",
+        "role": "context",
+        "heightMeters": 64,
+        "windowSeed": 0.81
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -106,
+              316
+            ],
+            [
+              -64,
+              316
+            ],
+            [
+              -64,
+              354
+            ],
+            [
+              -106,
+              354
+            ],
+            [
+              -106,
+              316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_eola_south_midrise",
+        "name": "Eola South Midrise",
+        "role": "context",
+        "heightMeters": 26,
+        "windowSeed": 0.238
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2,
+              248
+            ],
+            [
+              52,
+              248
+            ],
+            [
+              52,
+              282
+            ],
+            [
+              -2,
+              282
+            ],
+            [
+              -2,
+              248
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_thornton_park_lofts",
+        "name": "Thornton Park Lofts",
+        "role": "context",
+        "heightMeters": 20,
+        "windowSeed": 0.695
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              256,
+              121
+            ],
+            [
+              314,
+              121
+            ],
+            [
+              314,
+              159
+            ],
+            [
+              256,
+              159
+            ],
+            [
+              256,
+              121
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_thornton_park_central",
+        "name": "Thornton Park Central",
+        "role": "context",
+        "heightMeters": 24,
+        "windowSeed": 0.406
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              288,
+              -57
+            ],
+            [
+              342,
+              -57
+            ],
+            [
+              342,
+              -13
+            ],
+            [
+              288,
+              -13
+            ],
+            [
+              288,
+              -57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_eo_inn_residences",
+        "name": "EO Inn & Residences",
+        "role": "context",
+        "heightMeters": 22,
+        "windowSeed": 0.551
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              272,
+              -192
+            ],
+            [
+              318,
+              -192
+            ],
+            [
+              318,
+              -158
+            ],
+            [
+              272,
+              -158
+            ],
+            [
+              272,
+              -192
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_camden_thornton_park",
+        "name": "Camden Thornton Park",
+        "role": "context",
+        "heightMeters": 24,
+        "windowSeed": 0.603
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              387,
+              41
+            ],
+            [
+              453,
+              41
+            ],
+            [
+              453,
+              89
+            ],
+            [
+              387,
+              89
+            ],
+            [
+              387,
+              41
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_lake_eola_east_townhomes",
+        "name": "Lake Eola East Townhomes",
+        "role": "context",
+        "heightMeters": 18,
+        "windowSeed": 0.948
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              408,
+              -151
+            ],
+            [
+              462,
+              -151
+            ],
+            [
+              462,
+              -109
+            ],
+            [
+              408,
+              -109
+            ],
+            [
+              408,
+              -151
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_summerlin_courtyard",
+        "name": "Summerlin Courtyard",
+        "role": "context",
+        "heightMeters": 16,
+        "windowSeed": 0.666
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              524,
+              10
+            ],
+            [
+              576,
+              10
+            ],
+            [
+              576,
+              50
+            ],
+            [
+              524,
+              50
+            ],
+            [
+              524,
+              10
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_osceola_terrace",
+        "name": "Osceola Terrace",
+        "role": "context",
+        "heightMeters": 20,
+        "windowSeed": 0.347
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              203,
+              271
+            ],
+            [
+              257,
+              271
+            ],
+            [
+              257,
+              309
+            ],
+            [
+              203,
+              309
+            ],
+            [
+              203,
+              271
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_south_eola_commons",
+        "name": "South Eola Commons",
+        "role": "context",
+        "heightMeters": 22,
+        "windowSeed": 0.181
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              334,
+              240
+            ],
+            [
+              396,
+              240
+            ],
+            [
+              396,
+              280
+            ],
+            [
+              334,
+              280
+            ],
+            [
+              334,
+              240
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_truist_plaza_east",
+        "name": "Truist Plaza East",
+        "role": "context",
+        "heightMeters": 74,
+        "windowSeed": 0.515
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -382,
+              -3
+            ],
+            [
+              -328,
+              -3
+            ],
+            [
+              -328,
+              43
+            ],
+            [
+              -382,
+              43
+            ],
+            [
+              -382,
+              -3
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_seaside_plaza",
+        "name": "Seaside Plaza",
+        "role": "context",
+        "heightMeters": 68,
+        "windowSeed": 0.431
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -386,
+              -142
+            ],
+            [
+              -334,
+              -142
+            ],
+            [
+              -334,
+              -98
+            ],
+            [
+              -386,
+              -98
+            ],
+            [
+              -386,
+              -142
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_citrus_center_255_s_orange_",
+        "name": "Citrus Center (255 S Orange)",
+        "role": "context",
+        "heightMeters": 80,
+        "windowSeed": 0.338
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -491,
+              258
+            ],
+            [
+              -439,
+              258
+            ],
+            [
+              -439,
+              302
+            ],
+            [
+              -491,
+              302
+            ],
+            [
+              -491,
+              258
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_orlando_utilities_commission",
+        "name": "Orlando Utilities Commission",
+        "role": "context",
+        "heightMeters": 46,
+        "windowSeed": 0.785
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -494,
+              491
+            ],
+            [
+              -426,
+              491
+            ],
+            [
+              -426,
+              539
+            ],
+            [
+              -494,
+              539
+            ],
+            [
+              -494,
+              491
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_cnl_center_i",
+        "name": "CNL Center I",
+        "role": "context",
+        "heightMeters": 78,
+        "windowSeed": 0.664
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -513,
+              627
+            ],
+            [
+              -457,
+              627
+            ],
+            [
+              -457,
+              673
+            ],
+            [
+              -513,
+              673
+            ],
+            [
+              -513,
+              627
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_cnl_center_ii",
+        "name": "CNL Center II",
+        "role": "context",
+        "heightMeters": 72,
+        "windowSeed": 0.235
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -402,
+              623
+            ],
+            [
+              -348,
+              623
+            ],
+            [
+              -348,
+              667
+            ],
+            [
+              -402,
+              667
+            ],
+            [
+              -402,
+              623
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_grand_bohemian_hotel",
+        "name": "Grand Bohemian Hotel",
+        "role": "context",
+        "heightMeters": 58,
+        "windowSeed": 0.53
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -513,
+              387
+            ],
+            [
+              -457,
+              387
+            ],
+            [
+              -457,
+              433
+            ],
+            [
+              -513,
+              433
+            ],
+            [
+              -513,
+              387
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_dr_phillips_center_north",
+        "name": "Dr. Phillips Center North",
+        "role": "context",
+        "heightMeters": 36,
+        "windowSeed": 0.358
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -402,
+              402
+            ],
+            [
+              -318,
+              402
+            ],
+            [
+              -318,
+              458
+            ],
+            [
+              -402,
+              458
+            ],
+            [
+              -402,
+              402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_dr_phillips_center_south",
+        "name": "Dr. Phillips Center South",
+        "role": "context",
+        "heightMeters": 32,
+        "windowSeed": 0.944
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -403,
+              504
+            ],
+            [
+              -317,
+              504
+            ],
+            [
+              -317,
+              556
+            ],
+            [
+              -403,
+              556
+            ],
+            [
+              -403,
+              504
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_111_n_orange_ave",
+        "name": "111 N Orange Ave",
+        "role": "context",
+        "heightMeters": 82,
+        "windowSeed": 0.742
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -505,
+              -36
+            ],
+            [
+              -455,
+              -36
+            ],
+            [
+              -455,
+              6
+            ],
+            [
+              -505,
+              6
+            ],
+            [
+              -505,
+              -36
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_regions_bank_building",
+        "name": "Regions Bank Building",
+        "role": "context",
+        "heightMeters": 76,
+        "windowSeed": 0.058
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -501,
+              -167
+            ],
+            [
+              -449,
+              -167
+            ],
+            [
+              -449,
+              -123
+            ],
+            [
+              -501,
+              -123
+            ],
+            [
+              -501,
+              -167
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_dynetech_135_w_central",
+        "name": "Dynetech / 135 W Central",
+        "role": "context",
+        "heightMeters": 62,
+        "windowSeed": 0.455
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -717,
+              87
+            ],
+            [
+              -663,
+              87
+            ],
+            [
+              -663,
+              133
+            ],
+            [
+              -717,
+              133
+            ],
+            [
+              -717,
+              87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_one_orlando_centre",
+        "name": "One Orlando Centre",
+        "role": "context",
+        "heightMeters": 74,
+        "windowSeed": 0.175
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -394,
+              -403
+            ],
+            [
+              -336,
+              -403
+            ],
+            [
+              -336,
+              -357
+            ],
+            [
+              -394,
+              -357
+            ],
+            [
+              -394,
+              -403
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_firstate_tower",
+        "name": "Firstate Tower",
+        "role": "context",
+        "heightMeters": 62,
+        "windowSeed": 0.544
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -499,
+              -296
+            ],
+            [
+              -451,
+              -296
+            ],
+            [
+              -451,
+              -254
+            ],
+            [
+              -499,
+              -254
+            ],
+            [
+              -499,
+              -296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_embassy_suites_downtown",
+        "name": "Embassy Suites Downtown",
+        "role": "context",
+        "heightMeters": 64,
+        "windowSeed": 0.126
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -384,
+              133
+            ],
+            [
+              -326,
+              133
+            ],
+            [
+              -326,
+              177
+            ],
+            [
+              -384,
+              177
+            ],
+            [
+              -384,
+              133
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_aloft_orlando_downtown",
+        "name": "Aloft Orlando Downtown",
+        "role": "context",
+        "heightMeters": 48,
+        "windowSeed": 0.78
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -508,
+              744
+            ],
+            [
+              -452,
+              744
+            ],
+            [
+              -452,
+              786
+            ],
+            [
+              -508,
+              786
+            ],
+            [
+              -508,
+              744
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_skyhouse_orlando",
+        "name": "SkyHouse Orlando",
+        "role": "context",
+        "heightMeters": 84,
+        "windowSeed": 0.529
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -376,
+              -532
+            ],
+            [
+              -324,
+              -532
+            ],
+            [
+              -324,
+              -488
+            ],
+            [
+              -376,
+              -488
+            ],
+            [
+              -376,
+              -532
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_modera_central",
+        "name": "Modera Central",
+        "role": "context",
+        "heightMeters": 78,
+        "windowSeed": 0.624
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -377,
+              -278
+            ],
+            [
+              -323,
+              -278
+            ],
+            [
+              -323,
+              -232
+            ],
+            [
+              -377,
+              -232
+            ],
+            [
+              -377,
+              -278
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_the_plaza_south_tower",
+        "name": "The Plaza South Tower",
+        "role": "context",
+        "heightMeters": 94,
+        "windowSeed": 0.18
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -496,
+              129
+            ],
+            [
+              -444,
+              129
+            ],
+            [
+              -444,
+              171
+            ],
+            [
+              -496,
+              171
+            ],
+            [
+              -496,
+              129
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_the_plaza_north_tower",
+        "name": "The Plaza North Tower",
+        "role": "context",
+        "heightMeters": 88,
+        "windowSeed": 0.058
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -496,
+              51
+            ],
+            [
+              -444,
+              51
+            ],
+            [
+              -444,
+              93
+            ],
+            [
+              -496,
+              93
+            ],
+            [
+              -496,
+              51
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_chase_plaza_189_s_orange_",
+        "name": "Chase Plaza (189 S Orange)",
+        "role": "context",
+        "heightMeters": 74,
+        "windowSeed": 0.939
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -615,
+              238
+            ],
+            [
+              -565,
+              238
+            ],
+            [
+              -565,
+              282
+            ],
+            [
+              -615,
+              282
+            ],
+            [
+              -615,
+              238
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_church_street_station_exchange",
+        "name": "Church Street Station Exchange",
+        "role": "context",
+        "heightMeters": 28,
+        "windowSeed": 0.908
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -728,
+              248
+            ],
+            [
+              -662,
+              248
+            ],
+            [
+              -662,
+              292
+            ],
+            [
+              -728,
+              292
+            ],
+            [
+              -728,
+              248
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_suntrust_garage_podium",
+        "name": "SunTrust Garage & Podium",
+        "role": "context",
+        "heightMeters": 34,
+        "windowSeed": 0.714
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -627,
+              485
+            ],
+            [
+              -563,
+              485
+            ],
+            [
+              -563,
+              535
+            ],
+            [
+              -627,
+              535
+            ],
+            [
+              -627,
+              485
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_100_n_orange_garage",
+        "name": "100 N Orange Garage",
+        "role": "context",
+        "heightMeters": 36,
+        "windowSeed": 0.451
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -626,
+              -138
+            ],
+            [
+              -564,
+              -138
+            ],
+            [
+              -564,
+              -92
+            ],
+            [
+              -626,
+              -92
+            ],
+            [
+              -626,
+              -138
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_orange_county_courthouse",
+        "name": "Orange County Courthouse",
+        "role": "context",
+        "heightMeters": 96,
+        "windowSeed": 0.298
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -496,
+              -617
+            ],
+            [
+              -424,
+              -617
+            ],
+            [
+              -424,
+              -563
+            ],
+            [
+              -496,
+              -563
+            ],
+            [
+              -496,
+              -617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_courthouse_annex_west",
+        "name": "Courthouse Annex West",
+        "role": "context",
+        "heightMeters": 44,
+        "windowSeed": 0.103
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -614,
+              -609
+            ],
+            [
+              -556,
+              -609
+            ],
+            [
+              -556,
+              -561
+            ],
+            [
+              -614,
+              -561
+            ],
+            [
+              -614,
+              -609
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_courthouse_annex_east",
+        "name": "Courthouse Annex East",
+        "role": "context",
+        "heightMeters": 42,
+        "windowSeed": 0.533
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -367,
+              -632
+            ],
+            [
+              -313,
+              -632
+            ],
+            [
+              -313,
+              -588
+            ],
+            [
+              -367,
+              -588
+            ],
+            [
+              -367,
+              -632
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_north_quarter_lofts",
+        "name": "North Quarter Lofts",
+        "role": "context",
+        "heightMeters": 34,
+        "windowSeed": 0.23
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -626,
+              -743
+            ],
+            [
+              -564,
+              -743
+            ],
+            [
+              -564,
+              -697
+            ],
+            [
+              -626,
+              -697
+            ],
+            [
+              -626,
+              -743
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_park_north_at_cheney",
+        "name": "Park North at Cheney",
+        "role": "context",
+        "heightMeters": 28,
+        "windowSeed": 0.777
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -494,
+              -757
+            ],
+            [
+              -426,
+              -757
+            ],
+            [
+              -426,
+              -713
+            ],
+            [
+              -494,
+              -713
+            ],
+            [
+              -494,
+              -757
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_225_e_robinson",
+        "name": "225 E Robinson",
+        "role": "context",
+        "heightMeters": 58,
+        "windowSeed": 0.455
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -241,
+              -366
+            ],
+            [
+              -189,
+              -366
+            ],
+            [
+              -189,
+              -324
+            ],
+            [
+              -241,
+              -324
+            ],
+            [
+              -241,
+              -366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_300_e_robinson",
+        "name": "300 E Robinson",
+        "role": "context",
+        "heightMeters": 38,
+        "windowSeed": 0.725
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -129,
+              -380
+            ],
+            [
+              -81,
+              -380
+            ],
+            [
+              -81,
+              -340
+            ],
+            [
+              -129,
+              -340
+            ],
+            [
+              -129,
+              -380
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_radius_apartments",
+        "name": "Radius Apartments",
+        "role": "context",
+        "heightMeters": 46,
+        "windowSeed": 0.512
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -247,
+              -519
+            ],
+            [
+              -183,
+              -519
+            ],
+            [
+              -183,
+              -471
+            ],
+            [
+              -247,
+              -471
+            ],
+            [
+              -247,
+              -519
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_nora_apartments",
+        "name": "NORA Apartments",
+        "role": "context",
+        "heightMeters": 36,
+        "windowSeed": 0.812
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -495,
+              -477
+            ],
+            [
+              -435,
+              -477
+            ],
+            [
+              -435,
+              -433
+            ],
+            [
+              -495,
+              -433
+            ],
+            [
+              -495,
+              -477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_201_s_orange_ave",
+        "name": "201 S Orange Ave",
+        "role": "context",
+        "heightMeters": 66,
+        "windowSeed": 0.499
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -610,
+              134
+            ],
+            [
+              -560,
+              134
+            ],
+            [
+              -560,
+              176
+            ],
+            [
+              -610,
+              176
+            ],
+            [
+              -610,
+              134
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_26_s_orange_kress_",
+        "name": "26 S Orange (Kress)",
+        "role": "context",
+        "heightMeters": 38,
+        "windowSeed": 0.305
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -609,
+              0
+            ],
+            [
+              -561,
+              0
+            ],
+            [
+              -561,
+              40
+            ],
+            [
+              -609,
+              40
+            ],
+            [
+              -609,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_55_e_washington",
+        "name": "55 E Washington",
+        "role": "context",
+        "heightMeters": 48,
+        "windowSeed": 0.592
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -498,
+              -96
+            ],
+            [
+              -452,
+              -96
+            ],
+            [
+              -452,
+              -60
+            ],
+            [
+              -498,
+              -60
+            ],
+            [
+              -498,
+              -96
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_one_eleven_building",
+        "name": "One Eleven Building",
+        "role": "context",
+        "heightMeters": 52,
+        "windowSeed": 0.594
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -616,
+              -256
+            ],
+            [
+              -564,
+              -256
+            ],
+            [
+              -564,
+              -214
+            ],
+            [
+              -616,
+              -214
+            ],
+            [
+              -616,
+              -256
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_solitaire_x_orlando",
+        "name": "Solitaire / X Orlando",
+        "role": "context",
+        "heightMeters": 72,
+        "windowSeed": 0.077
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -734,
+              -169
+            ],
+            [
+              -676,
+              -169
+            ],
+            [
+              -676,
+              -121
+            ],
+            [
+              -734,
+              -121
+            ],
+            [
+              -734,
+              -169
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_society_orlando_north",
+        "name": "Society Orlando North",
+        "role": "context",
+        "heightMeters": 64,
+        "windowSeed": 0.337
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -740,
+              -304
+            ],
+            [
+              -680,
+              -304
+            ],
+            [
+              -680,
+              -256
+            ],
+            [
+              -740,
+              -256
+            ],
+            [
+              -740,
+              -304
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_tremont_tower",
+        "name": "Tremont Tower",
+        "role": "context",
+        "heightMeters": 54,
+        "windowSeed": 0.155
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -731,
+              -32
+            ],
+            [
+              -679,
+              -32
+            ],
+            [
+              -679,
+              12
+            ],
+            [
+              -731,
+              12
+            ],
+            [
+              -731,
+              -32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_ac_hotel_downtown",
+        "name": "AC Hotel Downtown",
+        "role": "context",
+        "heightMeters": 58,
+        "windowSeed": 0.051
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -737,
+              -436
+            ],
+            [
+              -683,
+              -436
+            ],
+            [
+              -683,
+              -394
+            ],
+            [
+              -737,
+              -394
+            ],
+            [
+              -737,
+              -436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_church_street_plaza",
+        "name": "Church Street Plaza",
+        "role": "context",
+        "heightMeters": 48,
+        "windowSeed": 0.253
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -742,
+              507
+            ],
+            [
+              -678,
+              507
+            ],
+            [
+              -678,
+              553
+            ],
+            [
+              -742,
+              553
+            ],
+            [
+              -742,
+              507
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_kia_center_arena",
+        "name": "Kia Center Arena",
+        "role": "context",
+        "heightMeters": 44,
+        "windowSeed": 0.26
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -902.62,
+              300.25
+            ],
+            [
+              -784.91,
+              292.02
+            ],
+            [
+              -777.38,
+              399.75
+            ],
+            [
+              -895.09,
+              407.98
+            ],
+            [
+              -902.62,
+              300.25
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_geico_garage",
+        "name": "Geico Garage",
+        "role": "context",
+        "heightMeters": 32,
+        "windowSeed": 0.061
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -889,
+              477
+            ],
+            [
+              -801,
+              477
+            ],
+            [
+              -801,
+              533
+            ],
+            [
+              -889,
+              533
+            ],
+            [
+              -889,
+              477
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_creative_village_academic",
+        "name": "Creative Village Academic",
+        "role": "context",
+        "heightMeters": 38,
+        "windowSeed": 0.569
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -871,
+              -326
+            ],
+            [
+              -799,
+              -326
+            ],
+            [
+              -799,
+              -274
+            ],
+            [
+              -871,
+              -274
+            ],
+            [
+              -871,
+              -326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_ucf_downtown_unionwest",
+        "name": "UCF Downtown UnionWest",
+        "role": "context",
+        "heightMeters": 56,
+        "windowSeed": 0.801
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -873,
+              -189
+            ],
+            [
+              -807,
+              -189
+            ],
+            [
+              -807,
+              -141
+            ],
+            [
+              -873,
+              -141
+            ],
+            [
+              -873,
+              -189
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_ea_orlando_studio",
+        "name": "EA Orlando Studio",
+        "role": "context",
+        "heightMeters": 36,
+        "windowSeed": 0.17
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -874,
+              -45
+            ],
+            [
+              -806,
+              -45
+            ],
+            [
+              -806,
+              5
+            ],
+            [
+              -874,
+              5
+            ],
+            [
+              -874,
+              -45
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_central_station_apartments",
+        "name": "Central Station Apartments",
+        "role": "context",
+        "heightMeters": 42,
+        "windowSeed": 0.631
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -752,
+              -578
+            ],
+            [
+              -688,
+              -578
+            ],
+            [
+              -688,
+              -532
+            ],
+            [
+              -752,
+              -532
+            ],
+            [
+              -752,
+              -578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_amtrak_lynx_central",
+        "name": "Amtrak / Lynx Central",
+        "role": "context",
+        "heightMeters": 22,
+        "windowSeed": 0.818
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -768,
+              -712
+            ],
+            [
+              -692,
+              -712
+            ],
+            [
+              -692,
+              -668
+            ],
+            [
+              -768,
+              -668
+            ],
+            [
+              -768,
+              -712
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_south_street_lofts",
+        "name": "South Street Lofts",
+        "role": "context",
+        "heightMeters": 30,
+        "windowSeed": 0.355
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -751,
+              638
+            ],
+            [
+              -689,
+              638
+            ],
+            [
+              -689,
+              682
+            ],
+            [
+              -751,
+              682
+            ],
+            [
+              -751,
+              638
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_550_s_orange",
+        "name": "550 S Orange",
+        "role": "context",
+        "heightMeters": 42,
+        "windowSeed": 0.572
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -622,
+              743
+            ],
+            [
+              -568,
+              743
+            ],
+            [
+              -568,
+              787
+            ],
+            [
+              -622,
+              787
+            ],
+            [
+              -622,
+              743
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_lucerne_terrace_north",
+        "name": "Lucerne Terrace North",
+        "role": "context",
+        "heightMeters": 36,
+        "windowSeed": 0.206
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -379,
+              754
+            ],
+            [
+              -321,
+              754
+            ],
+            [
+              -321,
+              796
+            ],
+            [
+              -379,
+              796
+            ],
+            [
+              -379,
+              754
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_grandview_on_lucerne",
+        "name": "Grandview on Lucerne",
+        "role": "context",
+        "heightMeters": 30,
+        "windowSeed": 0.457
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -238,
+              623
+            ],
+            [
+              -182,
+              623
+            ],
+            [
+              -182,
+              667
+            ],
+            [
+              -238,
+              667
+            ],
+            [
+              -238,
+              623
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_lake_cherokee_gables",
+        "name": "Lake Cherokee Gables",
+        "role": "context",
+        "heightMeters": 22,
+        "windowSeed": 0.822
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65,
+              536
+            ],
+            [
+              -15,
+              536
+            ],
+            [
+              -15,
+              574
+            ],
+            [
+              -65,
+              574
+            ],
+            [
+              -65,
+              536
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_rosalind_south_suites",
+        "name": "Rosalind South Suites",
+        "role": "context",
+        "heightMeters": 34,
+        "windowSeed": 0.217
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -252,
+              435
+            ],
+            [
+              -198,
+              435
+            ],
+            [
+              -198,
+              475
+            ],
+            [
+              -252,
+              475
+            ],
+            [
+              -252,
+              435
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_pine_rosalind_corner",
+        "name": "Pine & Rosalind Corner",
+        "role": "context",
+        "heightMeters": 32,
+        "windowSeed": 0.332
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -268,
+              56
+            ],
+            [
+              -222,
+              56
+            ],
+            [
+              -222,
+              94
+            ],
+            [
+              -268,
+              94
+            ],
+            [
+              -268,
+              56
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_central_rosalind",
+        "name": "Central & Rosalind",
+        "role": "context",
+        "heightMeters": 36,
+        "windowSeed": 0.268
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -269,
+              -64
+            ],
+            [
+              -221,
+              -64
+            ],
+            [
+              -221,
+              -26
+            ],
+            [
+              -269,
+              -26
+            ],
+            [
+              -269,
+              -64
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_magnolia_courtyard_block",
+        "name": "Magnolia Courtyard Block",
+        "role": "context",
+        "heightMeters": 42,
+        "windowSeed": 0.587
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -396,
+              268
+            ],
+            [
+              -334,
+              268
+            ],
+            [
+              -334,
+              292
+            ],
+            [
+              -368,
+              292
+            ],
+            [
+              -368,
+              322
+            ],
+            [
+              -396,
+              322
+            ],
+            [
+              -396,
+              268
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_robinson_north_block",
+        "name": "Robinson North Block",
+        "role": "context",
+        "heightMeters": 34,
+        "windowSeed": 0.669
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -329,
+              -676
+            ],
+            [
+              -329,
+              -614
+            ],
+            [
+              -353,
+              -614
+            ],
+            [
+              -353,
+              -650
+            ],
+            [
+              -381,
+              -650
+            ],
+            [
+              -381,
+              -676
+            ],
+            [
+              -329,
+              -676
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_eola_crest_block",
+        "name": "Eola Crest Block",
+        "role": "context",
+        "heightMeters": 24,
+        "windowSeed": 0.314
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115,
+              -368
+            ],
+            [
+              175,
+              -368
+            ],
+            [
+              175,
+              -346
+            ],
+            [
+              143,
+              -346
+            ],
+            [
+              143,
+              -322
+            ],
+            [
+              115,
+              -322
+            ],
+            [
+              115,
+              -368
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_thornton_south_block",
+        "name": "Thornton South Block",
+        "role": "context",
+        "heightMeters": 18,
+        "windowSeed": 0.097
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              517,
+              229
+            ],
+            [
+              453,
+              229
+            ],
+            [
+              453,
+              207
+            ],
+            [
+              489,
+              207
+            ],
+            [
+              489,
+              181
+            ],
+            [
+              517,
+              181
+            ],
+            [
+              517,
+              229
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ctx_garland_west_block",
+        "name": "Garland West Block",
+        "role": "context",
+        "heightMeters": 30,
+        "windowSeed": 0.092
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -868,
+              129
+            ],
+            [
+              -802,
+              129
+            ],
+            [
+              -802,
+              153
+            ],
+            [
+              -838,
+              153
+            ],
+            [
+              -838,
+              181
+            ],
+            [
+              -868,
+              181
+            ],
+            [
+              -868,
+              129
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
